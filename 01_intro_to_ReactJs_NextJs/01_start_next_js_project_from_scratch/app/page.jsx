@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { Tweet } from "react-tweet";
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam
         quibusdam non.
       </p>
+      <Tweet id="1721221768013119762" />
     </div>
   );
 }
